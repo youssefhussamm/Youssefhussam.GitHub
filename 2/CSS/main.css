@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.73);
+    width: 100%;
+    height: 100%;
+}
+/* Larry Daniels */
+.home h1::after{
+    content: "|";
+    animation: typing 10s linear infinite alternate;
+    font-weight: 600;
+}
+/* Larry DanielsDeveloperDesign */
+@keyframes typing {
+    0%{content: "L|";}
+    2%{content: "La|";}
+    4%{content: "Lar|";}
+    6%{content: "Larr|";}
+    8%{content: "Larry|";}
+    10%{content: "Larry |";}
+    12%{content: "Larry D|";}
+    14%{content: "Larry Da|";}
+    16%{content: "Larry Dan|";}
+    18%{content: "Larry Dani|";}
+    20%{content: "Larry Danie|";}
+    22%{content: "Larry Daniel|";}
+    24%{content: "Larry Daniels|";}
+    26%{content: "Larry Daniel|";}
+    28%{content: "Larry Danie|";}
+    30%{content: "Larry Dani|";}
+    32%{content: "Larry Dan|";}
+    34%{content: "Larry Da|";}
+    36%{content: "Larry D|";}
+    38%{content: "Larry |";}
+    40%{content: "Larry|";}
+    42%{content: "Larr|";}
+    44%{content: "Lar|";}
+    46%{content: "La|";}
+    48%{content: "L|";}
+    49%{content: "|";}
+    51%{content: "D|";}
+    53%{content: "De|";}
+    55%{content: "Dev|";}
+    57%{content: "Deve|";}
+    59%{content: "Devel|";}
+    61%{content: "Develo|";}
+    63%{content: "Develop|";}
+    65%{content: "Develope|";}
+    67%{content: "Developer|";}
+    69%{content: "Develope|";}
+    71%{content: "Develop|";}
+    73%{content: "Develo|";}
+    75%{content: "Devel|";}
+    77%{content: "Deve|";}
+    79%{content: "Dev|";}
+    81%{content: "De|";}
+    83%{content: "D|";}
+    84%{content: "|";}
+    86%{content: "D|";}
+    88%{content: "De|";}
+    90%{content: "Des|";}
+    91%{content: "Desi|";}
+    92%{content: "Desig|";}
+    93%{content: "Design|";}
+    94%{content: "Desig|";}
+    95%{content: "Desi|";}
+    96%{content: "Des|";}
+    97%{content: "De|";}
+    99%{content: "D|";}
+    100%{content: "|";}
+    
+    
+
+
+    
+}
+
+
+
+.skil{
+    background-color: black;
+
+}
+.progress h6{
+    position: absolute;
+    font-weight: 200;
+    font-size: small;
+    padding-left: 4px;
+    color: aliceblue;
+  
+}
+.progress{
+   margin-top: 20px;
+   
+}
+.progress .one{
+    animation: moving 1s;
+
+}
+@keyframes moving {
+0%{
+    width: 0%;
+
+}
+100%{
+    width: 95%;
+}
+    
+}
+.progress .two{
+    animation: movingg 1s;
+
+}
+@keyframes movingg {
+0%{
+    width: 0%;
+
+}
+100%{
+    width: 80%;
+}
+    
+}
+.progress .three{
+    animation: movinggg 1s;
+
+}
+@keyframes movinggg {
+0%{
+    width: 0%;
+
+}
+100%{
+    width: 90%;
+}
+    
+}
+.button .btn1{
+    transition: all .5s;
+}
+.button .btn1:hover{
+    background-color: aliceblue !important;
+    color: black !important;
+
+}
+.button .btn2{
+    transition: all.5s;
+}
+.button .btn2:hover{
+    background-color: black !important;
+    color: aliceblue !important;
+}
+.about p{ 
+    color: #999;
+}
+.about span{
+    color: rgba(71, 71, 71, 0.605);
+    font-weight: 700;
+}
+.services{
+    background-color: rgba(128, 128, 128, 0.088);
+}
+.services p{
+    color: #748182;
+
+}
+.services .items .icons {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%; 
+margin: auto; 
+transition: all .5s;
+
+
+}
+.services .items{
+    transition: all .5s;
+}
+.services .items:hover .icons{
+    background-color: black;
+    color: aliceblue;
+}
+.dots1{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%);
+   
+}
+.client{
+    background-color: rgba(128, 128, 128, 0.088);
+
+}
+
+.num p{
+    color: #748182;
+}
+
+
+.contact .itemms .iconns{
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%; 
+margin: auto;
+text-align: center;
+transition: all .5s;
+}
+.contact .itemms{
+    transition: all .5s;
+}
+.contact .itemms:hover .iconns{
+    background-color: black;
+    color: #f4f4f4;
+}
+.form-control{
+    background-color: #74818223;
+}
+.contact .bot{
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+.contact .bot:hover{
+    background-color: aliceblue;
+    color: black;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.893);
+    height: 100%;
+}
+footer p{
+    color: gray;
+}
+.contact p{
+    color: #748182;
+}
+.blog{
+    background-color: rgba(128, 128, 128, 0.122);
+}
+.dod{
+    width: 9px !important;
+    height: 9px !important;
+    background-color: gray !important;
+    border-radius: 50% !important;
+}
+.blog .carousel-indicators{
+    width: 100%;
+    margin: auto;
+    padding-top:50px ;
+}
+.portfolio .item2 .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.885);
+    opacity: 0;
+    transition: all 1s;
+}
+.portfolio .item2 {
+    overflow: hidden;
+}
+.portfolio .item2:hover .layer {
+    opacity: 1;
+}
+
+
+
+
+
+.navbar-toggler-icon{
+    background-color: aliceblue;
+    color: black;
+}
+.nav-tabs .nav-link-active{
+    background-color: transparent;
+    color: black;
+}
+.nav-tabs .nav-link{
+    color: black;
+    border: 0;
+}
